@@ -1,1 +1,1 @@
-Script to update twitter image.
+Python script to update twitter image.
