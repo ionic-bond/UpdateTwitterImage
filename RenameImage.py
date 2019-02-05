@@ -7,10 +7,10 @@ def RenameImg(dir_path, file_name):
         old_path = os.path.join(dir_path, file_name)
         new_path = os.path.join(dir_path, file_name[:-5])
         if os.path.exists(new_path):
-            print new_path, "already exists."
+            print(new_path, "already exists.")
             return
         os.rename(old_path, new_path)
-        print new_path
+        print (new_path)
 
 def ScanDir(dir_path):
     for file_name in os.listdir(dir_path):
